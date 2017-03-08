@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
-
-class App extends Component {
-
+import Router1 from './Router1'
+export default class App extends Component {
   render () {
     return <div>
-      <h1>Hello, World!</h1>
+      <Router1 />
     </div>
   }
 }
-
-export default App
